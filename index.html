@@ -2,66 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style-ljf.css"/>
+    <link rel="stylesheet" href="styles-ljf.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
     <title>Livets jävla fest   
     </title>
   </head>
   <body>
     <header class="header">
-      <nav>
-        <button class="button">Anmäl dig här!</button>
-        <button class="button">Hålla tal?</button>
+        <nav>
+        <a href="anmalan.html" class="button">Anmäl dig här</a>
+        <a href="halla-tal" class="button">Hålla tal?</a>
       </nav>
     </header>
-    <div>  
-    <img class="img" src="/Pictures/final-logo.png" width="70%" height="70%">
+    <div class="wrapper">  
+    <img class="bild" src="/Pictures/final-logo.png">
     </div>
-    <div>
+    <div> 
     <section class="text-section">
       <h4>26 - 28 MAJ 2023</h4>
       <h2>Nedräkningen har börjat!</h2>
       <!-- Display the countdown timer in an element -->
-<p class="countdowner" id="demo"></p>
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("May 26, 2023 18:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + " dagar " + hours + " timmar "
-  + minutes + " minuter " + seconds + " sekunder ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
-    </div>
+  <div class="container">
+    <div class="countdowner">
+          <ul>
+            <li><span id="days"></span>dagar</li>
+            <li><span id="hours"></span>timmar</li>
+            <li><span id="minutes"></span>minuter</li>
+            <li><span id="seconds"></span>sekunder</li>
+          </ul>
+        </div>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+          <span>🎂</span>
+        </div>
+      </div> 
+    <div class="paragraph">Varmt välkomna att fira <strong>Livets jävla fest</strong> (vårt bröllop) med oss helgen den 26-28 maj 2023 i Stockholms skärgård, närmare bestämt på ön Idöborg. Du kan läsa mer om platsen här <a href="https://www.idoborg.se" target="_blank" attributes-list>www.idoborg.se</a> </div>
+  </div>
     <section class="text-section">
     <h2>Praktiskt</h2>
-    <button type="button" class="collapsible">Open Collapsible</button>
+    <button type="button" class="collapsible">Transport</button>
     <div class="content">
-      <p>Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...</p>
+      <p>Vi kommer att ordna med buss från Stockholms Centralstation ut till Stavsnäs Vinterhamn och där vidare med båt till Idöborg. 
+        <br>
+        Avgång för bussen är fredag den 26/5 ca. 18.00, bussen tar ca. 60 minuter.
+        Avgång för båten från Stavsnäs till Idöborg är ca. 19.00, båtfärden tar ca. 20 min
+        <br>
+        Givetvis ordnar vi också med transport tillbaka på söndagen den 28/5.</p>
     </div>
     <br>
     <br>
-      <button type="button" class="collapsible">Open Collapsible</button>
+      <button type="button" class="collapsible">Boende</button>
+      <div class="content">
+        <p>Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...</p>
+      </div>
+      <br>
+    <br>
+      <button type="button" class="collapsible">Mat</button>
+      <div class="content">
+        <p>Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...</p>
+      </div>
+      <br>
+    <br>
+      <button type="button" class="collapsible">Present</button>
       <div class="content">
         <p>Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...Lorem ipsum...</p>
       </div>
