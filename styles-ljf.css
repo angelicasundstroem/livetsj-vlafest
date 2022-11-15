@@ -3,7 +3,7 @@
 }
 body {
   margin: 1px;
-  padding: 1%;
+  padding: 3%;
   background-color: rgb(247, 229, 225);
   padding-bottom: 5%;
 }
@@ -43,6 +43,12 @@ hr.solid {
   margin-top: 2vw;
   margin-bottom: 2vw;
   align-items: center;
+}
+h2{
+  text-decoration: solid;
+  font-size: 40px;
+  padding-top: 40px;
+  color: #ca8062;
 }
 
 .text-section {
@@ -128,16 +134,17 @@ li span {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  line-height: auto;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5;
 }
 p {
   font-size: 15px;
   text-align: left;
-  padding: 0 18px;
+  padding: 0% 5%;
 }
 .collapsible:after {
   content: "\02795"; /* Unicode character for "plus" sign (+) */
@@ -191,10 +198,7 @@ p {
   }
   .wrapper {
     margin-inline: auto;
-    max-width: 70%;
-  }
-  .contetn {
-    max-width: 800px;
+    max-width: 70%; 
   }
 }
 
