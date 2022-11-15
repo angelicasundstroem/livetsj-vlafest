@@ -1,119 +1,122 @@
-
 * {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 body {
-  min-height: 100vh;
-  margin: 0 auto;
+  margin: 1px;
+  padding: 1%;
   background-color: rgb(247, 229, 225);
+  padding-bottom: 5%;
 }
 .header {
   padding: 16px 20px;
-  align-items: center; 
+  align-items: center;
+}   
+.bild {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
 }
-.navigation-section {
-    padding: 20px;
-    justify-content: space-between;
+.button {
+  background-color: #ec9e7f;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 3px;
+  width: 120px;
+}
+/* LINE */
+hr.solid {
+    border: 1px solid #eead94;
+    max-width: 90%;
     align-items: center;
-    
+  }
+.button:hover {
+  background-color: #ca8062;
+  border: none;
+  color: white;
+  text-decoration: none;
 }
-  .button{
-    background-color: #ec9e7f;
-    font-family: 'Mulish', sans-serif;
-    border: none;
-    color: white;
-    padding: 10px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 3px;
-
-  }
-  .button:hover{
-    background-color: #ca8062;
-    border: none;
-    color: white;
-    text-decoration: none;
-    
-  }
-  .paragraph{
-    font-size: 15px;
-    width: 100%;
-    margin: auto;
-  }
-  .wrapper{
-    margin-inline: auto; 
-    max-width: 40%; 
-   }
-  .bild {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-  a{
-    color:#ca8062;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  h4{
-    color:#ca8062
-  }
+.text-section {
+  text-align: center;
+  margin: auto;
+}
+.text-section > h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.text-section > h4 {
+  color: #ca8062;
+}
+.paragraph {
+  font-size: 18px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 1000px;
+}
+a {
+  color: #ca8062;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 /* COUNTDOWNER */
-  .container {
-    color: #333;
-    margin: auto auto;
-    text-align: center;
-    font-size: 0.6rem
-  }
-  h1 {
-    font-weight: normal;  
-    letter-spacing: .125rem;
-    text-transform: uppercase;
-  }
-  li {
-    display: inline-block;
-    font-size: 1.5em;
-    list-style-type: none;
-    padding: 1em;
-    text-transform: uppercase;
-  }
-  li span {
-    display: block;
-    font-size: 3rem;
-  }
-  .emoji {
-    display: none;
-    padding: 1rem;
-  }
-  .emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
-  }
-  @media all and (max-width: 750px) {
-  }
-  .countdowner{
-    font-size: 30;
-  }
-  /* Style the button that is used to open and close the collapsible content */
+.container {
+  color: #333;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  font-size: 0.6rem;
+}
+h1 {
+  font-weight: normal;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+li span {
+  display: block;
+  font-size: 3rem;
+}
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+.emoji span {
+  font-size: 4rem;
+  padding: 0 0.5rem;
+}
+/* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
   color: #444;
-  cursor: pointer;   
-  padding: 18px;
+  cursor: pointer;
   width: 100%;
+  padding: 20px;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 18px;
   border-radius: 6px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: #ccc;
 }
 
@@ -125,13 +128,13 @@ body {
   background-color: #f1f1f1;
   line-height: auto;
 }
-p { 
+p {
   font-size: 15px;
   text-align: left;
   padding: 0 18px;
 }
 .collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
   float: right;
@@ -139,19 +142,93 @@ p {
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
-.text-section {
-  padding: 16px;
-  padding-bottom: 32px;
-  padding-top: 0;
-  text-align: center;
-  line-height: 1.3;
-  max-width: 512px;
-  margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+
+.wrapper {
+  margin-inline: auto;
 }
-.text-section > h2 {
-  font-size: 30px;
-  font-weight: 400;
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
 }
+
+/* Mobile */
+@media (max-width: 640px) {
+  .col-2 {
+    grid-template-columns: 1fr;
+  }
+  .col-3 {
+    grid-template-columns: 1fr;
+  }
+  .col-4 {
+    grid-template-columns: 1fr;
+  }
+  .paragraph {
+      font-size: 13px;
+  }
+}
+
+/* All above Mobile */
+@media (min-width: 640px) {
+  .wrapper {
+    margin-inline: auto;
+    max-width: 40%;
+  }
+  .collapsible {
+    max-width: 800px;
+  }
+  .collapsible:after {
+    max-width: 800px;
+  }
+  .p {
+    max-width: 800px;
+  }
+  .wrapper {
+    margin-inline: auto;
+    max-width: 70%;
+}
+.contetn {
+    max-width: 800px;
+}
+}
+
+/* Tablet */
+@media (min-width: 640px) and (max-width: 1280px) {
+  .col-2 {
+    grid-template-columns: 1fr;
+  }
+  .col-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .col-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Desktop and up */
+@media (min-width: 1280px) {
+  .col-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .col-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+ul {
+  padding: 0px;
+}
+.flex-120 {
+  width: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
