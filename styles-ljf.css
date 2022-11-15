@@ -5,25 +5,17 @@
 body {
   min-height: 100vh;
   margin: 0 auto;
-}
-body:focus {
-  outline: none;
-}
-div {
-  font-family: 'Mulish', sans-serif;
+  background-color: rgb(247, 229, 225);
 }
 .header {
   padding: 16px 20px;
-  display: flex;
-  justify-content: space-between;
   align-items: center; 
-  float:right;
 }
 .navigation-section {
-    padding: 16px;
-    display: flex;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
+    
 }
   .button{
     background-color: #ec9e7f;
@@ -70,20 +62,18 @@ div {
   h4{
     color:#ca8062
   }
-
+/* COUNTDOWNER */
   .container {
     color: #333;
     margin: auto auto;
     text-align: center;
     font-size: 0.6rem
   }
-  
   h1 {
     font-weight: normal;  
     letter-spacing: .125rem;
     text-transform: uppercase;
   }
-  
   li {
     display: inline-block;
     font-size: 1.5em;
@@ -91,24 +81,19 @@ div {
     padding: 1em;
     text-transform: uppercase;
   }
-  
   li span {
     display: block;
     font-size: 3rem;
   }
-  
   .emoji {
     display: none;
     padding: 1rem;
   }
-  
   .emoji span {
     font-size: 4rem;
     padding: 0 .5rem;
   }
-  
   @media all and (max-width: 750px) {
-
   }
   .countdowner{
     font-size: 30;
