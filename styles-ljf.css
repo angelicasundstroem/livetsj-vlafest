@@ -134,10 +134,10 @@ li span {
   display: none;
   overflow: hidden;
   background-color: #fdfcf9;
-  max-width: 85%;
+  width: 85%;
   margin: auto;
   line-height: 1.5;
-  border-radius: 0px 0px 10px 10px ;
+  border-radius: 0px 0px 10px 10px;
 }
 p {
   font-size: 15px;
@@ -227,6 +227,12 @@ p {
     font-size: 3vw;
     margin: 3%;
   }
+  .content {
+    width: 800px;
+  }
+  .collapsible{ 
+    width: 800px;
+  }
 }
 
 
@@ -248,6 +254,12 @@ p {
     color: #ca8062;
     font-size: 2vw;
     margin: 3%;
+  }
+  .content {
+    width: 800px;
+  }
+  .collapsible{ 
+    width: 800px;
   }
 }
 ul {
