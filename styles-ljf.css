@@ -44,27 +44,26 @@ hr.solid {
   margin-bottom: 2vw;
   align-items: center;
 }
-h1{
-  text-decoration: solid;
-  font-size: 40px;
-  padding-top: 40px;
-  color: #ca8062;
-}
-
 .text-section {
   text-align: center;
   margin: auto;
 }
 .text-section > h1 {
-  font-size: 2.3rem;
-  font-weight: 400;
-  margin: 3% 0%;
-  color: #000000;
+  font-size: 4vw;
+  font-weight: normal;
+  margin: 0% 0%;
+  text-decoration: solid;
+  color: #000;
 }
-.text-section > h4 {
+.text-section > h3 {
   color: #ca8062;
-  font-size: 1.8rem;
+  font-size: 1.5vw;
   margin: 3%;
+}
+.h2{
+  font-size: 2rem;
+  padding-top: 3%;
+  font-weight: normal;
 }
 .paragraph {
   font-size: 18px;
@@ -87,12 +86,12 @@ a:hover {
   padding: 0px;
   text-align: center;
   align-items: center;
-  font-size: 0.6rem;
+  font-size: 1.1vw;
 }
 
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1.1vw;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -165,7 +164,7 @@ p {
   gap: var(--gap, 1rem);
 }
 
-/* Mobile */
+/* MOBILE */
 @media (max-width: 640px) {
   .col-2 {
     grid-template-columns: 1fr;
@@ -176,12 +175,27 @@ p {
   .col-4 {
     grid-template-columns: 1fr;
   }
-  .h2 {
-    font-size: 40px;
+  .text-section > h1 {
+    font-size: 7vw;
   }
+  .text-section > h3 {
+    color: #ca8062;
+    font-size: 5vw;
+    margin: 3%;
+  }
+  li {
+    display: inline-block;
+    font-size: 3vw;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  li span {
+    display: block;
+    font-size: 9vw;
 }
 
-/* All above Mobile */
+/* Above Mobile to desktop*/
 @media (min-width: 640px) {
   .wrapper {
     margin-inline: auto;
@@ -198,10 +212,17 @@ p {
   }
   .wrapper {
     margin-inline: auto;
-    max-width: 70%; 
+    max-width: 70%;
+  }
+  .text-section > h1 {
+    font-size: 4vw;
+  }
+  .text-section > h3 {
+    color: #ca8062;
+    font-size: 3vw;
+    margin: 3%;
   }
 }
-
 
 /* Desktop and up */
 @media (min-width: 1280px) {
@@ -214,6 +235,15 @@ p {
   .col-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .text-section > h1 {
+    font-size: 3.3
+    vw;
+  }
+  .text-section > h3 {
+    color: #ca8062;
+    font-size: 2vw;
+    margin: 3%;
+  }
 }
 
 ul {
@@ -225,4 +255,5 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 5px;
+}
 }
