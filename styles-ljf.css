@@ -4,7 +4,7 @@
 body {
   margin: 1px;
   padding: 3%;
-  background-color: rgb(247, 229, 225);
+  background-color: #f7f4ef;
   padding-bottom: 5%;
 }
 .header {
@@ -28,7 +28,8 @@ body {
   display: inline-block;
   font-size: 18px;
   border-radius: 3px;
-  width: 7.5rem;
+  width: 230px;
+  margin: 5px;
 }
 .button:hover {
   background-color: #ca8062;
@@ -60,15 +61,16 @@ hr.solid {
   font-size: 1.5vw;
   margin: 3%;
 }
-.h2{
-  font-size: 2rem;
+h2{
+  font-size: 2.5rem;
   padding-top: 3%;
   font-weight: normal;
 }
 .paragraph {
   font-size: 18px;
   margin: auto;
-  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 25px;;
   text-align: center;
   max-width: 1000px;
 }
@@ -110,7 +112,7 @@ li span {
 }
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
+  background-color: #eee9e0;
   color: #444;
   cursor: pointer;
   width: 100%;
@@ -125,14 +127,14 @@ li span {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
-  background-color: #ccc;
+  background-color: #e6dfd0;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #fdfcf9;
   max-width: 800px;
   margin: auto;
   line-height: 1.5;
@@ -231,6 +233,7 @@ p {
   }
 }
 
+
 /* Desktop and up */
 @media (min-width: 1280px) {
   .col-2 {
@@ -251,14 +254,6 @@ p {
     margin: 3%;
   }
 }
-
 ul {
   padding: 0px;
-}
-.flex-120 {
-  width: 500px;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
 }
