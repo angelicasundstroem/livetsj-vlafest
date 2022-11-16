@@ -2,21 +2,14 @@
   font-family: "Mulish", sans-serif;
 }
 body {
-  margin: 1%;
-  padding: 3%;
   background-color: #f7f4ef;
   padding-bottom: 5%;
 }
-.header {
-  padding: 16px 20px;
-  align-items: center;
-}
 .bild {
   display: block;
-  margin-left: auto;
   margin-right: auto;
-  border: 1%;
-  width: 92%;
+  margin-left: auto;
+  width: 90%;
   max-width: 550px;
 }
 .button {
