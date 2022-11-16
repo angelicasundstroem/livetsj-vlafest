@@ -120,7 +120,7 @@ li span {
   text-align: left;
   outline: none;
   font-size: 18px;
-  border-radius: 6px;
+  border-radius: 3px 3px 3px 3px ;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -134,9 +134,10 @@ li span {
   display: none;
   overflow: hidden;
   background-color: #fdfcf9;
-  max-width: 800px;
+  max-width: 85%;
   margin: auto;
   line-height: 1.5;
+  border-radius: 0px 0px 10px 10px ;
 }
 p {
   font-size: 15px;
