@@ -175,6 +175,9 @@ p {
   .col-4 {
     grid-template-columns: 1fr;
   }
+  .text-section{
+    width: 100%;
+  }
   .text-section > h1 {
     font-size: 7vw;
   }
@@ -182,6 +185,9 @@ p {
     color: #ca8062;
     font-size: 5vw;
     margin: 3%;
+  }
+  .container{
+    width: 100vw;
   }
   li {
     display: inline-block;
