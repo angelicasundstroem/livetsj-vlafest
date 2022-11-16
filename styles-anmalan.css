@@ -6,6 +6,7 @@ nav {
   margin: auto;
   max-width: 90vw;
   width: 640px;
+  padding: 5px;
 }
 .button {
   background-color: #cdbea1;
@@ -32,3 +33,13 @@ nav {
 .input {
   width: 100%;
 }
+/* MOBILE */
+@media (max-width: 640px) {
+  .nav {
+    max-width: 640px;
+  }
+.button {
+  margin: 4%;
+}
+}
+
