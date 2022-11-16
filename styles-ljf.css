@@ -193,6 +193,7 @@ p {
   li span {
     display: block;
     font-size: 9vw;
+  }
 }
 
 /* Above Mobile to desktop*/
@@ -236,8 +237,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .text-section > h1 {
-    font-size: 3.3
-    vw;
+    font-size: 3.3vw;
   }
   .text-section > h3 {
     color: #ca8062;
@@ -255,5 +255,4 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 5px;
-}
 }
