@@ -23,7 +23,7 @@ body {
   padding: 15px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
   border-radius: 3px;
   margin: 5px;
   width: 230px;
@@ -64,19 +64,20 @@ hr.solid {
   font-size: 1.5vw;
   margin: 3%;
 }
+/*Praktiskt*/
 h2{
   font-size: 2.5rem;
   font-weight: normal;
 }
 .paragraph {
-  font-size: 18px;
+  font-size: 20px;
   margin: auto;
   padding-top: 10px;
-  padding-bottom: 25px;
+  padding-bottom: 28px;
   text-align: center;
-  max-width: 1000px;
-  padding-left: 8%;
-  padding-right: 8%;
+  max-width: 800px;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 a {
   color: #ca8062;
@@ -124,7 +125,7 @@ li span {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 3px 3px 3px 3px ;
 }
 
@@ -141,11 +142,11 @@ li span {
   background-color: #fdfcf9;
   width: 85%;
   margin: auto;
-  line-height: 1.5;
+  line-height: 1.6;
   border-radius: 0px 0px 10px 10px;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
   text-align: left;
   padding: 0% 5%;
 }
@@ -193,6 +194,9 @@ p {
     font-size: 5vw;
     margin: 3%;
   }
+  .paragraph{
+    font-size: 17px;
+  }
   .container{
     width: 100vw;
   }
@@ -239,10 +243,10 @@ p {
     margin: 3%;
   }
   .content {
-    width: 800px;
+    width: 640px;
   }
   .collapsible{ 
-    width: 800px;
+    width: 640px;
   }
 }
 
