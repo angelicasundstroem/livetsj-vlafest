@@ -296,6 +296,7 @@ p {
   }
   li span {
   display: block;
+  justify-content: center;
   font-size: 4vw;
 }
 }
