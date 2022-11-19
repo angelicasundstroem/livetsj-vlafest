@@ -127,13 +127,19 @@ li span {
   outline: none;
   font-size: 20px;
   border-radius: 3px 3px 3px 3px ;
-  margin:10px;
+  margin: 10px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .collapsible:hover {
   background-color: #e6dfd0;
+}
+.toggle{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Style the collapsible content. Note: hidden by default */
