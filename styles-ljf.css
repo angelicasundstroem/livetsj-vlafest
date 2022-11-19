@@ -248,6 +248,17 @@ p {
   .collapsible{ 
     width: 640px;
   }
+  li {
+    display: inline-block;
+    font-size: 2vw;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  li span {
+    display: block;
+    font-size: 7vw;
+}
 }
 
 
@@ -276,7 +287,19 @@ p {
   .collapsible{ 
     width: 800px;
   }
+  li {
+  display: inline-block;
+  font-size: 1.2vw;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  }
+  li span {
+  display: block;
+  font-size: 4vw;
 }
+}
+
 ul {
   padding: 0px;
 }
