@@ -17,7 +17,16 @@
   <iframe class="form"
     src="https://docs.google.com/forms/d/e/1FAIpQLSf02l6_61hMWQQJ1p6PeULm7PCOOIPnKIFBBczRRCKYpmOYHA/viewform?embedded=true"
     width="640" height="1582" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
-
+    <script>
+      document.querySelector("iframe").addEventListener("load",
+      function(){
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'auto'
+          });
+      });
+      </script>
 </body>
 
 </html>
