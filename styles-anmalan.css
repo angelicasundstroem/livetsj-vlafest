@@ -37,6 +37,7 @@ nav {
 @media (max-width: 640px) {
   .nav {
     max-width: 640px;
+    height: 800px;
   }
   .button {
   margin: 4%;
