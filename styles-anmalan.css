@@ -1,6 +1,7 @@
 body {
   background-color: #eee9e0;
   margin: 20px;
+  height: 1000px;
 }
 nav {
   margin: auto;
@@ -29,6 +30,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  height: 110%;
 }
 .input {
   width: 100%;
@@ -37,7 +39,7 @@ nav {
 @media (max-width: 640px) {
   .nav {
     max-width: 640px;
-    height: 800px;
+    height: 2000px;
   }
   .button {
   margin: 4%;
