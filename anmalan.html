@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles-anmalan.css"/>
+  <script src="script.js" defer></script>
   <title>Livets jävla fest
   </title>
 </head>
@@ -15,8 +16,17 @@
   </nav>
   <iframe class="form"
     src="https://docs.google.com/forms/d/e/1FAIpQLSdo6OPAgyM0_MOLGtmEJbU4Fjo53ETyePSo5XuttCU1TiBY_g/viewform?embedded=true"
-    width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" ​id="my-iframe-form">Läser in …
-  </iframe>
-  ​​​<script>jQuery('iframe').load(function(){jQuery('html,body').animate({scrollTop: 0}, 'slow');});</script>
+    width="100%" height="1920" frameborder="0" marginheight="0" marginwidth="0">Läser in …
+</iframe>
+  <script>
+    document.querySelector("iframe").addEventListener("load",
+    function(){
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: 'auto'
+        });
+    });
+    </script>
 </body>
 </html>
