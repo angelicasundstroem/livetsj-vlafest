@@ -16,7 +16,7 @@
 
   //end
 
-  const countDown = new Date("May 26, 2023 21:40:00").getTime(),
+  const countDown = new Date("May 26, 2023 20:45:00").getTime(),
     x = setInterval(function () {
       const now = new Date().getTime(),
         distance = countDown - now;
