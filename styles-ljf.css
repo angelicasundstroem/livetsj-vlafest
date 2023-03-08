@@ -34,6 +34,25 @@ body {
   color: white;
   text-decoration: none;
 }
+.button-used {
+  background-color: #ebe8e3;
+  border: none;
+  color: #d5d3cf;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 23px;
+  border-radius: 3px;
+  margin: 5px;
+  width: 230px;
+}
+.button-used:hover {
+  background-color: #ebe8e3;
+  border: none;
+  color: #d5d3cf;
+  text-decoration: none;
+  cursor: default; 
+}
 .button-group {
   display: flex;
   flex-direction: row;
