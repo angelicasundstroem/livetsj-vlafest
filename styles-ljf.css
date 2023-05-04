@@ -243,7 +243,7 @@ p {
     flex-direction: column;
     align-items: center;
     }
-}
+
 
 /* Above Mobile to desktop*/
 @media (min-width: 640px) {
@@ -285,6 +285,7 @@ p {
     display: block;
     font-size: 7vw;
 }
+
 }
 
 
@@ -310,6 +311,9 @@ p {
   .content {
     width: 800px;
   }
+  .content-bild {
+    width: 10%;
+  }
   .collapsible{ 
     width: 800px;
   }
@@ -324,9 +328,8 @@ p {
   display: block;
   justify-content: center;
   font-size: 4vw;
-}
-}
-
+  }
 ul {
   padding: 0px;
+}
 }
